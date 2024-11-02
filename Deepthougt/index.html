@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Project Management</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 min-h-screen">
+    <header class="fixed top-0 left-0 right-0 bg-white shadow-md z-50 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <img src="brand-logo.png" alt="Deep Thought Logo" class="h-8">
+                
+            </div>
+            <nav class="flex space-x-4">
+                <button class="p-2 rounded-full hover:bg-gray-200" aria-label="Home">🏠</button>
+                <button class="p-2 rounded-full hover:bg-gray-200" aria-label="Messages">💬</button>
+                <button class="p-2 rounded-full hover:bg-gray-200" aria-label="Notifications">🔔</button>
+                <button class="p-2 rounded-full hover:bg-gray-200" aria-label="Profile">👤</button>
+                <button class="p-2 rounded-full hover:bg-gray-200" aria-label="Settings">⚙️</button>
+            </nav>
+        </div>
+    </header>
+
+    <div class="flex">
+        <!-- Left Sidebar -->
+        <aside id="leftSidebar" class="fixed left-0 top-16 bottom-0 w-64 bg-white shadow-md transform -translate-x-full transition-transform duration-300 ease-in-out z-40">
+            <div class="p-4">
+                <h2 class="text-lg font-bold mb-4">Journey Board</h2>
+                <ul class="space-y-2">
+                    <li class="font-semibold">Explore the world of management</li>
+                    <li>Technical Project Management</li>
+                    <li>Threadbuild</li>
+                    <li>Structure your Pointers</li>
+                    <li>4SA Method</li>
+                </ul>
+            </div>
+        </aside>
+        <button id="leftSidebarToggle" class="fixed left-0 top-20 bg-blue-600 text-white p-2 rounded-r-md z-50">☰</button>
+
+        <!-- Main Content -->
+        <main class="flex-1 mt-16 p-4 ml-0 transition-all duration-300 ease-in-out">
+            <div class="container mx-auto">
+                <section class="flex justify-between items-center mb-6">
+                    <h1 class="text-3xl font-bold text-blue-600">Technical Project Management</h1>
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 transition duration-300">Submit Task</button>
+                </section>
+
+                <section class="bg-gray-100 p-6 rounded-lg mb-8">
+                    <h2 class="text-xl font-semibold mb-2">Explore the world of management</h2>
+                    <p>As a project manager, you play an important role in leading a project through initiation, planning, execution, monitoring, controlling and completion. How? Do you want to manage each and every step of your life?</p>
+                </section>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <div class="bg-black text-white p-4 flex justify-between items-center">
+                            <h2 class="text-lg font-semibold">Technical project management</h2>
+                            <button class="text-white" aria-label="Info">ℹ️</button>
+                        </div>
+                        <div class="p-4">
+                            <p class="mb-4">Description: Story of Alignment Scope of Agility Specific Accountable Staggering Approach</p>
+                            <div class="aspect-w-16 aspect-h-9">
+                                <iframe src="https://www.youtube.com/embed/TiMRwri1xJ8" title="Technical Project Management Video" allowfullscreen class="w-full h-full"></iframe>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <div class="bg-black text-white p-4 flex justify-between items-center">
+                            <h2 class="text-lg font-semibold">Threadbuild</h2>
+                            <button class="text-white" aria-label="Info">ℹ️</button>
+                        </div>
+                        <div class="p-4">
+                            <p class="mb-4">Description: Watch the video and thread build, and jot out key threads while watching that video</p>
+                            <div class="bg-gray-100 p-4 rounded-lg">
+                                <h3 class="font-semibold mb-2">Thread A</h3>
+                                <div class="mb-4">
+                                    <h4 class="text-sm font-medium mb-1">Sub Thread 1</h4>
+                                    <textarea class="w-full p-2 border rounded" placeholder="Enter text here"></textarea>
+                                </div>
+                                <div class="flex justify-between mb-4">
+                                    <select class="p-2 border rounded">
+                                        <option>Select Category</option>
+                                    </select>
+                                    <select class="p-2 border rounded">
+                                        <option>Select Process</option>
+                                    </select>
+                                </div>
+                                <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-300">+ Sub thread</button>
+                                <div class="mt-4">
+                                    <h4 class="text-sm font-medium mb-1">Summary for Thread A</h4>
+                                    <textarea class="w-full p-2 border rounded" placeholder="Enter summary here"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <div class="bg-black text-white p-4 flex justify-between items-center">
+                            <h2 class="text-lg font-semibold">Structure your Pointers</h2>
+                            <button class="text-white" aria-label="Info">ℹ️</button>
+                        </div>
+                        <div class="p-4">
+                            <p class="mb-4">Description: Write a 300-400 word article from your thread. Publish your understanding and showcase your understanding to the entire world</p>
+                            <div class="mb-4">
+                                <h3 class="font-semibold mb-2">Title</h3>
+                                <input type="text" class="w-full p-2 border rounded" placeholder="Enter title here">
+                            </div>
+                            <div>
+                                <h3 class="font-semibold mb-2">Content</h3>
+                                <div class="bg-gray-100 p-2 mb-2 flex flex-wrap gap-2">
+                                    <button class="px-2 py-1 bg-white rounded hover:bg-gray-200 transition duration-300">File</button>
+                                    <button class="px-2 py-1 bg-white rounded hover:bg-gray-200 transition duration-300">Edit</button>
+                                    <button class="px-2 py-1 bg-white rounded hover:bg-gray-200 transition duration-300">View</button>
+                                    <button class="px-2 py-1 bg-white rounded hover:bg-gray-200 transition duration-300">Insert</button>
+                                    <button class="px-2 py-1 bg-white rounded hover:bg-gray-200 transition duration-300">Format</button>
+                                    <button class="px-2 py-1 bg-white rounded hover:bg-gray-200 transition duration-300">Tools</button>
+                                    <button class="px-2 py-1 bg-white rounded hover:bg-gray-200 transition duration-300">Table</button>
+                                    <button class="px-2 py-1 bg-white rounded hover:bg-gray-200 transition duration-300">Help</button>
+                                </div>
+                                <textarea class="w-full p-2 border rounded h-40" placeholder="Enter content here"></textarea>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <div class="bg-black text-white p-4 flex justify-between items-center">
+                            <h2 class="text-lg font-semibold">4SA Method</h2>
+                            <button class="text-white" aria-label="Info">ℹ️</button>
+                        </div>
+                        <div class="p-4">
+                            <p class="mb-4">Description: To Explore more read more</p>
+                            <div class="space-y-4">
+                                <div class="border rounded p-4">
+                                    <h3 class="font-semibold mb-2">Introduction</h3>
+                                    <p class="mb-2">The 4SA Method, How to bring a idea into progress?</p>
+                                    <button class="text-blue-600 hover:underline">See More</button>
+                                </div>
+                                <div class="border rounded p-4">
+                                    <h3 class="font-semibold mb-2">Thread A</h3>
+                                    <p class="mb-2">How are you going to develop your strategy? Which method are you going to use to develop a strategy? What if the project is lengthy?</p>
+                                    <button class="text-blue-600 hover:underline">See More</button>
+                                </div>
+                                <div class="border rounded p-4">
+                                    <h3 class="font-semibold mb-2">Example 1</h3>
+                                    <p>You have a concept, How will you put into progress?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <!-- Right Sidebar (Notice Board) -->
+        <aside id="rightSidebar" class="fixed right-0 top-16 bottom-0 w-64 bg-white shadow-md transform translate-x-full transition-transform duration-300 ease-in-out z-40">
+            <div class="p-4">
+                <h2 class="text-lg font-bold mb-4">Notice Board</h2>
+                <p>No new notices at this time.</p>
+            </div>
+        </aside>
+        <button id="rightSidebarToggle" class="fixed right-0 top-1/2 transform -translate-y-1/2 bg-black text-white px-4 py-2 -rotate-90 origin-bottom-right z-50">Notice Board</button>
+    </div>
+
+    <div class="fixed bottom-4 right-4 flex flex-col space-y-2">
+        <button class="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center hover:bg-blue-700 transition duration-300" aria-label="Help">❓</button>
+        <button class="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center hover:bg-blue-700 transition duration-300" aria-label="Chat">💬</button>
+        <button class="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center hover:bg-blue-700 transition duration-300" aria-label="Manage">➡️</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
